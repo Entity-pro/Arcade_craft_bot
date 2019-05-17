@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '!status') {
-    msg.reply('offline and coming soon');
+  if (msg.content === 'status') {
+    msg.reply('offline');
   }
 });
 
