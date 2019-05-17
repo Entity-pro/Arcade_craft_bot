@@ -6,9 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'status') {
+  if (msg.content === '!status') {
     msg.reply('offline and coming soon');
   }
 });
 
-client.login('NTcyMDgxNzU3NDk1NzU0NzYy.XNhUBQ.GXO4YcLZqXOsXWU6zOtHoNAnn1Y');
+client.login('token');
